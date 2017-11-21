@@ -1,0 +1,97 @@
+@charset "utf-8";
+html,body{
+    height: 100%;
+}
+.body_bg{
+  background-color:#222d32;
+}
+a:link,a:hover,a:visited,a:active{
+    text-decoration: none;
+}
+*{
+    margin: 0;
+    padding:0;
+    list-style: none;
+}
+/* 登录页面 */
+.container .panel{
+    margin-top: 150px;
+}
+.container .panel-heading .panel-title{
+    text-align: center;
+    font-size: 18px;
+
+}
+/* 左侧边栏 */
+.lt-aside{
+    width: 180px;
+    height: 100%;
+    background-color: #222C32;
+    position: absolute;
+}
+.lt-aside .topbar{
+    width: 100%;
+    height: 50px;
+    background-color: #367fa9;
+    line-height: 50px;
+}
+.lt-aside .topbar a{
+    display: block;
+    width: 100%;
+    height: 100%;
+    font-size: 20px;
+    color: #fff;
+    text-align: center;
+}
+.lt-aside .user{
+    padding:30px 50px;
+    text-align: center;
+}
+.lt-aside .user img{
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    margin-bottom: 10px;
+}
+.lt-aside .user p{
+    color:#fff;
+    font-size: 12px;
+}
+.lt-aside .memu ul li a{
+    display: block;
+    height: 40px;
+    color: #aaa;
+    padding-left:40px;
+}
+.lt-aside .memu .child{
+    padding-left:20px;
+    display: none;
+}
+.main .nav {
+    width: 100%;
+    height: 50px;
+    background-color: #3c8dbc;
+    margin-bottom: 20px;
+    line-height: 50px;
+}
+.main {
+    padding-left:180px;
+}
+.main .nav a{
+    color:#fff;
+}
+.main .nav a:first-child{
+    margin-left:15px;
+}
+.main .nav a:nth-child(2){
+    margin-right:15px;
+}
+.main .lt-content{
+    margin-top:20px;
+}
+/* 报表 */
+.pic_left,
+.pic_right{
+    width: 45%;
+    height: 400px;
+}
